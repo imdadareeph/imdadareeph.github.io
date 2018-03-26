@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/imdadareeph/imdadareeph.github.io.svg?branch=master)](https://travis-ci.org/imdadareeph/imdadareeph.github.io.svg?branch=master)
+
 # How to use?
 
 Simply build the image using `$docker build -t imdadareeph/rhel7nodejs9:v1.0.1 .`
