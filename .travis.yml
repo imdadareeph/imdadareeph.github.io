@@ -8,6 +8,7 @@ branches:
 
 before_script:
 - npm install --save-dev @angular/cli@latest
+- npm install @angular/core
 - npm install
 
 script:
