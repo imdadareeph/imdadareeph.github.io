@@ -1,0 +1,31 @@
+{
+  "name": "imdadareeph.github.io",
+  "version": "0.1.0",
+  "description": "A docker container for hosting imdadareeph.github.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/imdadareeph/imdadareeph.github.io.git"
+  },
+  "keywords": [
+    "static",
+    "website",
+    "public",
+    "express"
+  ],
+  "author": "Imdad Areeph <imdadareeph@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imdadareeph/imdadareeph.github.io/issues"
+  },
+  "homepage": "https://github.com/imdadareeph/imdadareeph.github.io",
+  "dependencies": {
+    "compression": "^1.0.8",
+    "express": "^4.4.4",
+    "serve-static": "^1.2.3"
+  }
+}
