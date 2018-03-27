@@ -3,7 +3,7 @@
 #What is
 Personal portfolio site
 
-![alt text](http://trendytheme.net/wp-content/uploads/edd/2015/10/Futani-Admin-Board-Preview-11.jpg "iamx")
+![alt text](http://i63.tinypic.com/302uqm1.jpg "preview")
 
 
 #License:
