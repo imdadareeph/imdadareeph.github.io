@@ -304,6 +304,11 @@ ul.list-check li::before {
     }
 }
 
+@media (max-width: 990px) {
+    .company-logo {
+        float: left;
+    }
+}
 
 #home {
 	background: url(../images/home2.jpg) no-repeat center center;
