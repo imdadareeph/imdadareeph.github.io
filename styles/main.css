@@ -7055,7 +7055,8 @@ Created using IcoMoon - icomoon.io
 }
 
 .page-header .btn {
-  width: 140px;
+  /*width: 140px;*/
+  width: 110px;
 }
 
 /* Profile Image Style */
@@ -7279,7 +7280,7 @@ a.credit {
 }
 
 .imdad-text-opacity{
-  opacity: 0.5; 
+  opacity: 0.5;
 }
 
 .imdad-text-upper{
@@ -7295,20 +7296,16 @@ a.credit {
 }
 
 .imdad-bg-blur{
-    transform: translate3d(0px, 15.3333px, 0px) !important; 
+    transform: translate3d(0px, 15.3333px, 0px) !important;
     filter: blur(5px) !important;
 }
 
 .imdad-bg-blur10px{
-    transform: translate3d(0px, 15.3333px, 0px) !important; 
+    transform: translate3d(0px, 15.3333px, 0px) !important;
     filter: blur(10px) !important;
 }
 
 
 .imdad-bg-blur0px{
-    transform: translate3d(0px, 0px, 0px) !important; 
+    transform: translate3d(0px, 0px, 0px) !important;
 }
-
-
-
-
