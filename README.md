@@ -21,7 +21,8 @@ That's it.
 
 ## Templates and others
 
-This image uses templates modified from free site.If known, credit can be given.Please contact @imdadareeph2016@gmail.com
+This image uses templates modified from free site.
+Template is by Creative CV. All rights reserved. Design - TemplateFlip
 
 ## Environment variables
 
