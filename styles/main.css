@@ -7299,8 +7299,15 @@ a.credit {
     filter: blur(5px) !important;
 }
 
+.imdad-bg-blur10px{
+    transform: translate3d(0px, 15.3333px, 0px) !important; 
+    filter: blur(10px) !important;
+}
 
 
+.imdad-bg-blur0px{
+    transform: translate3d(0px, 0px, 0px) !important; 
+}
 
 
 
