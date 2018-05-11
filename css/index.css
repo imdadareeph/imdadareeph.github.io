@@ -4,7 +4,7 @@ h1 { margin:50px auto;}
 .zoom {
   position: fixed;
   bottom: 45px;
-  right: 24px;
+  right: 5px;
   height: 70px;
   z-index: 99;
 }
@@ -71,13 +71,13 @@ h1 { margin:50px auto;}
 
 .zoom-menu li {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 .zoom-card {
-  width: 250px;
+  width: 255px;
   position: absolute;
-  right: 135%;
+  right: 115%;
   /*right: 150px;*/
   bottom: 70px;
   transition: box-shadow 0.25s;
