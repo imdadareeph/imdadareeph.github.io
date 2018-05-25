@@ -52,3 +52,27 @@ Instead of using imdadareeph/rhel7nodejs9 image, any light nodejs image can be u
 # License
 
 Everything in [this repository](https://github.com/imdadareeph/imdadareeph.github.io) is published under [GPL-3](https://spdx.org/licenses/GPL-3.0).
+
+```
+                                                                                      
+                                              dddddddd                             dddddddd
+IIIIIIIIII                                    d::::::d                             d::::::d
+I::::::::I                                    d::::::d                             d::::::d
+I::::::::I                                    d::::::d                             d::::::d
+II::::::II                                    d:::::d                              d:::::d 
+  I::::I     mmmmmmm    mmmmmmm       ddddddddd:::::d   aaaaaaaaaaaaa      ddddddddd:::::d 
+  I::::I   mm:::::::m  m:::::::mm   dd::::::::::::::d   a::::::::::::a   dd::::::::::::::d 
+  I::::I  m::::::::::mm::::::::::m d::::::::::::::::d   aaaaaaaaa:::::a d::::::::::::::::d 
+  I::::I  m::::::::::::::::::::::md:::::::ddddd:::::d            a::::ad:::::::ddddd:::::d 
+  I::::I  m:::::mmm::::::mmm:::::md::::::d    d:::::d     aaaaaaa:::::ad::::::d    d:::::d 
+  I::::I  m::::m   m::::m   m::::md:::::d     d:::::d   aa::::::::::::ad:::::d     d:::::d 
+  I::::I  m::::m   m::::m   m::::md:::::d     d:::::d  a::::aaaa::::::ad:::::d     d:::::d 
+  I::::I  m::::m   m::::m   m::::md:::::d     d:::::d a::::a    a:::::ad:::::d     d:::::d 
+II::::::IIm::::m   m::::m   m::::md::::::ddddd::::::dda::::a    a:::::ad::::::ddddd::::::dd
+I::::::::Im::::m   m::::m   m::::m d:::::::::::::::::da:::::aaaa::::::a d:::::::::::::::::d
+I::::::::Im::::m   m::::m   m::::m  d:::::::::ddd::::d a::::::::::aa:::a d:::::::::ddd::::d
+IIIIIIIIIImmmmmm   mmmmmm   mmmmmm   ddddddddd   ddddd  aaaaaaaaaa  aaaa  ddddddddd   ddddd
+                                                                                           
+                                                                                           
+
+```
