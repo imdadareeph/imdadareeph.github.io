@@ -1,7 +1,7 @@
 {
   "name": "imdadareeph.github.io",
-  "version": "0.1.0",
-  "description": "A docker container for hosting imdadareeph.github.io",
+  "version": "1.0.0",
+  "description": "Personal portfolio website for Imdad Areeph - Senior Java Developer with expertise in event-driven applications, microservices, and AI ecosystems",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
