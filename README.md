@@ -1,286 +1,59 @@
-# Imdad Areeph - Personal Portfolio Website
+<h1 align="center">Hi 👋, I'm Imdad Areeph</h1>
+<h3 align="center">A passionate frontend developer from India residing in UAE</h3>
 
-<div align="center">
-  <img src="images/version.svg?sanitize=true" alt="version" width="100">
-  <br>
-  <strong>Senior Java Developer | Event-Driven Architect | AI Ecosystem Specialist</strong>
-</div>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=imdadareeph&label=Profile%20views&color=0e75b6&style=flat" alt="imdadareeph" /> </p>
 
-## 🚀 About
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=imdadareeph" alt="imdadareeph" /></a> </p>
 
-This is the personal portfolio website for **Imdad Areeph**, a Senior Java Developer with **13+ years of experience** in event-driven application development, microservices, and AI-powered ecosystems.
+<p align="left"> <a href="https://twitter.com/imdadareeph" target="blank"><img src="https://img.shields.io/twitter/follow/imdadareeph?logo=twitter&style=for-the-badge" alt="imdadareeph" /></a> </p>
 
-### Current Role
-- **Senior Java Developer** at Emirates Airlines
-- **Project:** Emirates Internet Booking Engine (Flight Booking System)
-- **Specializations:** Event-driven architectures, AI ecosystems, reactive programming
+- 🔭 I’m currently working AI Creative projects, Java Virtual threads and reactive webflux [Ai story generator](https://github.com/imdadareeph/story-weaver-ai)
 
-### Key Expertise
-- **Event-Driven Systems:** Solace, Apache Kafka, RabbitMQ, Event Sourcing, CQRS
-- **Reactive Frameworks:** Spring WebFlux, Project Reactor, Functional Programming
-- **AI/ML Ecosystems:** RAG, LangChain4j, Ollama, Vector DBs (PGVector, Neo4j)
-- **Microservices:** Spring Boot, Spring Cloud, Docker, Kubernetes
-- **Observability:** OpenTelemetry, Prometheus, Grafana, Jaeger
-
----
-
-## 🛠️ Technology Stack
-
-- **Backend:** Node.js, Express.js
-- **Frontend:** HTML5, CSS3, JavaScript, Bootstrap
-- **Build Tools:** npm, Docker
-- **Deployment:** Docker, GitHub Pages
-
----
-
-## 📋 Prerequisites
-
-Before running this application, make sure you have the following installed:
-
-- **Node.js** (v14 or higher)
-- **npm** (v6 or higher)
-- **Docker** (optional, for containerized deployment)
-
-### Check Installation
-```bash
-node --version
-npm --version
-docker --version  # if using Docker
-```
-
----
+- 🌱 I’m currently learning RUST programming **Rust website and youtube**
 
-## 🚀 Quick Start
+- 👯 I’m looking to collaborate on Cinematic web application for moview creation using AI [ai cenima](https://github.com/imdadareeph/studio)
 
-### Option 1: Local Development (Recommended)
+- 🤝 I’m looking for help with [Monew view](https://github.com/imdadareeph/uae-money-view)
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/imdadareeph/imdadareeph.github.io.git
-   cd imdadareeph.github.io
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Start the development server**
-   ```bash
-   npm start
-   ```
-
-4. **Access the application**
-   - Open your browser and navigate to: `http://localhost:8888`
-   - Health check endpoint: `http://localhost:8888/health`
-
-### Option 2: Docker Deployment
-
-1. **Build the Docker image**
-   ```bash
-   docker build -t imdadareeph/portfolio:v1.0.0 .
-   ```
-
-2. **Run the container**
-   ```bash
-   docker run -d -p 8888:8888 --name portfolio imdadareeph/portfolio:v1.0.0
-   ```
-
-3. **Access the application**
-   - Open your browser and navigate to: `http://localhost:8888`
-
-### Option 3: Production Deployment
-
-1. **Set environment variables**
-   ```bash
-   export PORT=3000  # or your preferred port
-   ```
-
-2. **Start with PM2 (recommended for production)**
-   ```bash
-   npm install -g pm2
-   pm2 start index.js --name "portfolio"
-   pm2 startup
-   pm2 save
-   ```
-
----
-
-## 📁 Project Structure
-
-```
-imdadareeph.github.io/
-├── css/                    # Stylesheets
-│   ├── aos.css            # Animate On Scroll
-│   ├── bootstrap.min.css  # Bootstrap framework
-│   └── index.css          # Custom styles
-├── js/                     # JavaScript files
-│   ├── core/              # Core libraries
-│   ├── aos.js             # Animate On Scroll
-│   └── index.js           # Main JavaScript
-├── images/                 # Image assets
-├── libs/                   # External libraries
-├── scripts/                # Custom scripts
-├── index.html             # Main HTML file
-├── index.js               # Express server
-├── package.json           # Node.js dependencies
-├── Dockerfile             # Docker configuration
-└── README.md              # This file
-```
-
----
-
-## 🔧 Available Scripts
-
-| Command | Description |
-|---------|-------------|
-| `npm start` | Start the development server |
-| `npm test` | Run tests (placeholder) |
-| `npm run build` | Build for production (if applicable) |
-
----
-
-## 🌐 Live Demo
-
-- **Website:** [imdadareeph.com](http://www.imdadareeph.com)
-- **GitHub:** [github.com/imdadareeph](https://github.com/imdadareeph)
-- **LinkedIn:** [linkedin.com/in/imdadareeph](https://www.linkedin.com/in/imdadareeph/)
-
----
-
-## 📊 Features
-
-### ✅ Implemented
-- Responsive design with Bootstrap
-- Animated sections with AOS (Animate On Scroll)
-- Contact form integration
-- Social media links
-- Portfolio showcase
-- Skills visualization
-- Experience timeline
-- Education details
-- Certifications & awards
-- Recent projects showcase
-
-### 🔄 Recent Updates
-- Updated to reflect current role and expertise
-- Added AI/ML ecosystem projects
-- Enhanced skills section with modern technologies
-- Added certifications and awards section
-- Improved server configuration with security headers
-- Added health check endpoint
-- Enhanced Docker support
-
----
-
-## 🐳 Docker Commands
-
-### Build Image
-```bash
-docker build -t imdadareeph/portfolio:latest .
-```
-
-### Run Container
-```bash
-docker run -d -p 8888:8888 --name portfolio imdadareeph/portfolio:latest
-```
-
-### Stop Container
-```bash
-docker stop portfolio
-docker rm portfolio
-```
-
-### View Logs
-```bash
-docker logs portfolio
-```
-
-### Update Image
-```bash
-docker pull imdadareeph/portfolio:latest
-docker stop portfolio
-docker rm portfolio
-docker run -d -p 8888:8888 --name portfolio imdadareeph/portfolio:latest
-```
-
----
-
-## 🔒 Security Features
-
-- **Security Headers:** X-Content-Type-Options, X-Frame-Options, X-XSS-Protection
-- **Compression:** Gzip compression for better performance
-- **Static File Serving:** Secure static file handling
-- **Health Check:** Built-in health monitoring endpoint
-
----
-
-## 📈 Performance Optimization
-
-- **Compression:** Gzip compression enabled
-- **Static Assets:** Optimized image and CSS delivery
-- **Caching:** Browser caching for static assets
-- **Minification:** Minified CSS and JavaScript files
-
----
-
-## 🐛 Troubleshooting
-
-### Common Issues
-
-1. **Port already in use**
-   ```bash
-   # Find process using port 8888
-   lsof -i :8888
-   # Kill the process
-   kill -9 <PID>
-   ```
-
-2. **Docker permission issues**
-   ```bash
-   # Add user to docker group
-   sudo usermod -aG docker $USER
-   # Logout and login again
-   ```
-
-3. **Node modules issues**
-   ```bash
-   # Clear npm cache
-   npm cache clean --force
-   # Remove node_modules and reinstall
-   rm -rf node_modules package-lock.json
-   npm install
-   ```
-
----
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 📞 Contact
-
-- **Email:** imdadareeph@gmail.com
-- **Phone:** +971-507605159
-- **Website:** [imdadareeph.com](http://www.imdadareeph.com)
-- **LinkedIn:** [linkedin.com/in/imdadareeph](https://www.linkedin.com/in/imdadareeph/)
-- **GitHub:** [github.com/imdadareeph](https://github.com/imdadareeph)
-
----
-
-<div align="center">
-  <p>Made with ❤️ by Imdad Areeph</p>
-  <p>Last updated: December 2024</p>
-</div>
+- 👨‍💻 All of my projects are available at https://github.com/imdadareeph [http://www.imdadareeph.com/](http://www.imdadareeph.com/)
+
+- 📝 I regularly write articles on Tech blogs and AI New updates and real time demo [https://www.linkedin.com/in/imdadareeph/](https://www.linkedin.com/in/imdadareeph/)
+
+- 💬 Ask me about System Design **Java, Spring, Python, Manim**
+
+- 📫 How to reach me @imdadareeph **imdadareeph@gmail.com**
+
+- 📄 Know about my experiences I have 14 years of experience as backend engineer [http://www.imdadareeph.com/ImdadResume.pdf](http://www.imdadareeph.com/ImdadResume.pdf)
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://codepen.io/imdadareeph" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="imdadareeph" height="30" width="40" /></a>
+<a href="https://twitter.com/imdadareeph" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="imdadareeph" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/imdadareeph" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="imdadareeph" height="30" width="40" /></a>
+<a href="https://stackoverflow.com/users/imdadareeph" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="imdadareeph" height="30" width="40" /></a>
+<a href="https://codesandbox.com/imdadareeph" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codesandbox.svg" alt="imdadareeph" height="30" width="40" /></a>
+<a href="https://fb.com/imdadareeph" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="imdadareeph" height="30" width="40" /></a>
+<a href="https://instagram.com/imdadareeph" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="imdadareeph" height="30" width="40" /></a>
+<a href="https://dribbble.com/imdadareeph" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/dribbble.svg" alt="imdadareeph" height="30" width="40" /></a>
+<a href="https://medium.com/imdadareeph" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="imdadareeph" height="30" width="40" /></a>
+<a href="https://www.youtube.com/c/imdadareeph" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="imdadareeph" height="30" width="40" /></a>
+<a href="https://www.codechef.com/users/imdadareeph" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="imdadareeph" height="30" width="40" /></a>
+<a href="https://www.hackerrank.com/imdadareeph" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="imdadareeph" height="30" width="40" /></a>
+<a href="https://codeforces.com/profile/imdadareeph" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="imdadareeph" height="30" width="40" /></a>
+<a href="https://www.leetcode.com/imdadareeph" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="imdadareeph" height="30" width="40" /></a>
+<a href="https://www.hackerearth.com/imdadareeph" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerearth.svg" alt="imdadareeph" height="30" width="40" /></a>
+<a href="https://www.topcoder.com/members/imdadareeph" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/topcoder.svg" alt="imdadareeph" height="30" width="40" /></a>
+<a href="https://discord.gg/imdadareeph" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="imdadareeph" height="30" width="40" /></a>
+</p>
+
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://angular.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original-wordmark.svg" alt="angularjs" width="40" height="40"/> </a> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://couchdb.apache.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/0d6c64dbbf311879f7d563bfc3ccf559f9ed111c/icons/couchdb/couchdb-original.svg" alt="couchdb" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://d3js.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/d3js/d3js-original.svg" alt="d3js" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://grafana.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg" alt="grafana" width="40" height="40"/> </a> <a href="https://graphql.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" alt="graphql" width="40" height="40"/> </a> <a href="https://heroku.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://jekyllrb.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jekyllrb/jekyllrb-icon.svg" alt="jekyll" width="40" height="40"/> </a> <a href="https://www.jenkins.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="40" height="40"/> </a> <a href="https://kafka.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg" alt="kafka" width="40" height="40"/> </a> <a href="https://www.elastic.co/kibana" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/elasticco_kibana/elasticco_kibana-icon.svg" alt="kibana" width="40" height="40"/> </a> <a href="https://kubernetes.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://mariadb.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg" alt="mariadb" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.nginx.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://www.rabbitmq.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/rabbitmq/rabbitmq-icon.svg" alt="rabbitMQ" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a> <a href="https://redis.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> </a> <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> </a> <a href="https://www.rust-lang.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-plain.svg" alt="rust" width="40" height="40"/> </a> <a href="https://www.selenium.dev" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" alt="selenium" width="40" height="40"/> </a> <a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> <a href="https://unity.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="40" height="40"/> </a> <a href="https://zapier.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/zapier/zapier-icon.svg" alt="zapier" width="40" height="40"/> </a> </p>
+
+<h3 align="left">Support:</h3>
+<p><a href="https://ko-fi.com/@imdadareeph"> <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="@imdadareeph" /></a></p><br><br>
+
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=imdadareeph&show_icons=true&locale=en&layout=compact" alt="imdadareeph" /></p>
+
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=imdadareeph&show_icons=true&locale=en" alt="imdadareeph" /></p>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=imdadareeph&" alt="imdadareeph" /></p>
