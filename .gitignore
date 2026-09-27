@@ -23,3 +23,12 @@ dist-ssr
 *.sln
 *.sw?
 .env
+
+# Local Cursor docs, prompts and personal photos (Pages deploys the whole repo)
+.cursor/
+index.js.backup
+
+# Source videos for the cinematic page; the site plays cinematic/frames/
+cinematic/clips/*
+!cinematic/clips/.gitkeep
+cinematic/assets/identity.jpg
